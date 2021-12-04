@@ -1,61 +1,46 @@
-<div align="center">
+## WhatsApp User Bot
 
-![My card name](https://cardivo.vercel.app/api?name=Fidha%20Mwol&description=Hi,%20Welcome%20To%20Fidha%20Mwol%20WhatsApp%20Bot%20Repo%20❤&image=https://i.imgur.com/M2vPn9o.jpeg?q=tbn:ANd9GcR7aMC3bf4bg4l_nhYS2Un9FXbFYcB4T83Shjk8xSUZDh_D61LFpzbpeqLW&s=10?v=4&backgroundColor=%23ecf0f1&instagram=hyper_sir_&github=Hypersir&)
+- This is a Userbot based on 2 repositories written by [Kaweesha Chamod](https://github.com/)
 
-<div align="center">
-  <img border-radius: 15px src="https://i.imgur.com/M2vPn9o.jpeg" width="200" height="200"/>
-  <p align="center">
-<a href="#"><img title="FidhaMwol" src="https://img.shields.io/badge/HYPER SIR-pink?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
-</p>
-  <p align="center">
-<a href="https://chat.whatsapp.com/DwfuSbumUA3DoXYyyNlPSt"><img title="join support" src="https://img.shields.io/badge/join_support-afnanplk/pinkymwol?color=black&style=for-the-badge&logo=whatsapp"></a>
-</p>
-</div>
-<p align="center">
+## Besed on
+1. Click to whatch [Npm For Bot](https://github.com/Kaweeshachamodk/npm) and see futures in bot.
+2. Click to whatch [Data Base For Bot](https://github.com/Kaweeshachamodk/DataBase) and see Data protection in bot.
 
-</p>
-<div align="center">
+## Setup
 
-  ### Simple Method
-  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Hypersir/Fidha-Mwol) 
-  
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Hypersir/FidhaMwolqr)
+1. Click [SCAN](https://replit.com/@Kaweeshachamodk/STEFANIE-BETA-NEW-6?v=1) and scan QR through Whatsapp Linked Devices Option in Your whatsapp App.
+2. You will get a long text that needs after 4th step (STEFANIE_SESSION).
+3. If You don't have a account in [Heroku](https://signup.heroku.com/), Create a account.
+4. Now click [DEPLOY](https://heroku.com/deploy?template=https://github.com/Kaweeshachamodk/WhatApp-Bot) and Follow.
+   <br>
+   <a href="https://youtu.be/GNSARiAUfKA"><img src="https://img.shields.io/badge/-watch%20video-critical?style=for-the-badge&logo=youtube&logoColor=white">
+   <br>
+## Special Futures in this bot
 
-### ⚠️Warning
-```
-By using kick, add, promote, demote Commands, Your WhatsApp account may be banned.
-Fidha-Mwol  or we are not responsible for your account, 
-This bot is intended for the purpose of having fun with some fun commands 
-and group management with some helpfull commands.
+- Button menu
+- 2 step alive message (pp and link)
+- Group crashing system 
+- Bot bug system 
+- V card genareting option
 
-If  you ended up spamming groups, getting reported left and right, 
-and you ended up in being fight with WhatsApp
-and at the end WhatsApp Team deleted your account. DON'T BLAME US.
 
-No personal support will be provided / We won't spoon feed you. 
-If you need help
-you can contact
-```
-<h1 align="center"> Contact Developer
-<p align="center">
+## Note this
+- Exclusively from VIRUS FUCKER Project 
+- Do not use this fore any commercial thing
+- Do not edit (Respect to the Devaoloper) 
+- All rights reserved VIRUS FUCKER
 
-  <a href="https://wa.me/917025967090"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  <a href="https://instagram.com/hyper_sir_"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  <a href="https://github.com/Hypersir"><img src="https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github" /> 
-  
 
-## Developers
-  <div align="center">
-    
-  [![nexusNw](https://github.com/nexusNw.png?size=100)](https://github.com/nexusNw) | [![Hyper Sir](https://github.com/Hypersir.png?size=100)](https://github.com/Hypersir) |  [![WH173-5P1D3R](https://github.com/WH173-5P1D3R.png?size=100)](https://github.com/WH173-5P1D3R) 
-----|----|----
-[nexusNw](https://github.com/nexusNw) | [Hyper-sir](https://github.com/Hypersir) | [White-Spider](https://github.com/WH173-5P1D3R)
-Bug Fixes, Modules | Developer, Bug Fixes, Modules, Commits |  Bug Fixes, Modules
-  </div>
-    
+## Thanks To
+- [@adiwajshing](https://github.com/adiwajshing) for coded [Baileys](https://github.com/adiwajshing/Baileys) 
+- [@Himsham-Mohammed](https://github.com/Hisham-Muhammed) special thanks for help & advancing
+- [@Prabath Senavirathna](https://github.com/MrChaby) for this coded
+- [@Prabath Senavirathna](https://github.com/MrChaby) for he give me special help to create my bot.
+- Translators
+
 ## License
 This project is protected by `GNU General Public Licence v3.0` license.
+Assign Credit to developers.Dont edit out the copyright messages!
 
 ### Disclaimer
-`WhatsApp` name, its variations and the logo are registered trademarks of Meta. We have nothing to do with the registered trademark
+`WhatsApp` name, its variations and the logo are registered trademarks of Facebook. We have nothing to do with the registered trademark
