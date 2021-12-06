@@ -23,14 +23,7 @@ Julie.addCommand({pattern: 'alive', fromMe: true, desc: 'Lang.ALIVE_DESC'}, (asy
     var PIC = Buffer.from(logo.data)
 
     const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
-
-    var BUTTHANDLE = '';
-    if (/\[(\W*)\]/.test(Build.HANDLERS)) {
-        BUTTHANDLE = Build.HANDLERS.match(/\[(\W*)\]/)[1][0];
-    } else {
-        BUTTHANDLE = '.';
-    }
-        
+    
     const buttons = [
         {buttonId: BUTTHANDLE + 'qaversion', buttonText: {displayText: VER }, type: 1},
         {buttonId: BUTTHANDLE + 'qasysstats', buttonText: {displayText: SYSDTXT }, type: 1}
