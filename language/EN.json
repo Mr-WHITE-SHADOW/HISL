@@ -211,7 +211,7 @@
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
-            "ALIVE_DESC": "Check bot online or not",
+            "ALIVE_DSC": "Check bot online or not",
             "SYSD_DESC": "System properties.",
             "BOT_V": "Check version of bot.",
             "version": "3.5.0v - Public Edition",
