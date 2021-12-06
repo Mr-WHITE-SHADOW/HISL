@@ -24,6 +24,13 @@ Julie.addCommand({pattern: 'alive', fromMe: true, desc: 'Lang.ALIVE_DESC'}, (asy
 
     const media = await message.client.prepareMessage(message.jid, PIC, MessageType.image, { thumbnail: PIC })
 
+    var BUTTHANDLE = '';
+    if (/\[(\W*)\]/.test(Build.HANDLERS)) {
+        BUTTHANDLE = Build.HANDLERS.match(/\[(\W*)\]/)[1][0];
+    } else {
+        BUTTHANDLE = '.';
+    }
+        
     const buttons = [
         {buttonId: BUTTHANDLE + 'qaversion', buttonText: {displayText: VER }, type: 1},
         {buttonId: BUTTHANDLE + 'qasysstats', buttonText: {displayText: SYSDTXT }, type: 1}
@@ -37,4 +44,23 @@ Julie.addCommand({pattern: 'alive', fromMe: true, desc: 'Lang.ALIVE_DESC'}, (asy
     }
     await message.client.sendMessage(message.jid, buttonMessage, MessageType.buttonsMessage);
      
+}));
+
+Julie.addCommand({pattern: 'qasysstats', fromMe: true, desc: Lang.SYSD_DESC, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+    await QueenAmdi.amdi_setup()
+    const child = spawnSync('neofetch', ['--stdout']).stdout.toString('utf-8')
+    await message.sendMessage(
+        '```' + child + '```', MessageType.text, {quoted: message.data}
+    );
+}));
+
+Julie.addCommand({pattern: 'qaversion', fromMe: true, desc: Lang.BOT_V, dontAddCommandList: true,  deleteCommand: false}, (async (message, match) => {
+    await QueenAmdi.amdi_setup()
+    await message.client.sendMessage(message.jid, 
+        `*🧬 Queen Amdi Version 🧬*\n\n` + 
+        '```Installed version :```\n' +
+        Lang.version + 
+        `\n\nCheck official website : https://amdaniwasa.com/`
+   , MessageType.text, {quoted: message.data});
+    
 }));
