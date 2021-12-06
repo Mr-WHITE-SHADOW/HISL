@@ -216,7 +216,8 @@
             "BOT_V": "Check version of bot.",
             "version": "3.5.0v - Public Edition",
             "RULE_DESC": "Shows setted rules by Group Admins",
-            "rules": "*There is no rules setted by Admins.*""SYSD_DESC": "Shows the system properties."
+            "rules": "*There is no rules setted by Admins.*",
+            "SYS_DESC": "Shows the system properties."
         },
         "tagall": {
             "TAGALL_DESC": "Tags everyone in the group.",
