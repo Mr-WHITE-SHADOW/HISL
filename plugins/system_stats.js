@@ -8,14 +8,14 @@ const axios = require('axios');
 const Language = require('../language');
 const Lang = Language.getString('system_stats');
 
-const SYSDTXT = '💻 System status'
-const VER = '🧬 Version'
-const MSG = 'Hey There! Bot Online now. 💃🏻♥️```\n\n*Developer:* ```Ai Dark Ezio```\n\n*Official Website:* https://AiDarkEzio.github.io\n\n*Youtube channel :* https://youtube.com/channel/UCeDeaDD8dpdMT2gO3VHY1JQ\n\n```Thank You For Using Queen Jennifer💞'
+const SYSDTXT = 'hi'
+const VER = 'hello'
+const MSG = 'Don't love me, don't\nrespect me, don't follow me, don't help me, don't look for\nme, but I will not fail😉Because I came\nalone, I can still be alone in the future??\n\nBut I'm not saying you have to\n\nIf you want to\nlove me, if you want to respect me,\nif you want to follow me😊\n🥰\n\nBY: Mr.White Shadow'
 
 
 Julie.addCommand({pattern: 'alive', fromMe: true, desc: 'Lang.ALIVE_DESC'}, (async (message, match) => {
 
-    var a_plk =  "https://i.imgur.com/zdcqaaG.jpeg" ;
+    var a_plk =  "https://telegra.ph/file/9027f964886da41d44400.jpg" ;
     var BUTTHANDLE = '.';
  
 
@@ -30,7 +30,7 @@ Julie.addCommand({pattern: 'alive', fromMe: true, desc: 'Lang.ALIVE_DESC'}, (asy
     ]
     const buttonMessage = {
         contentText: MSG,
-        footerText: 'Queen Jennifer © ᴘᴜʙʟɪᴄ ᴇᴅɪᴛɪᴏɴ',
+        footerText: 'Mr White Shadow © ᴘᴜʙʟɪᴄ ᴇᴅɪᴛɪᴏɴ',
         buttons: buttons,
         headerType: 4,
         imageMessage: media.message.imageMessage    
